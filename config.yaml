@@ -1,0 +1,52 @@
+title: Stackbit Fjord Theme
+baseURL: /
+params:
+  description: A minimal blogging theme for Stackbit
+  header:
+    title: Andrews
+    tagline: Founder of Geek Excel!! Blog for Excel Tutorials
+    background_img: images/header-bg.jpg
+    has_nav: true
+    nav_links:
+      - label: Home
+        url: /
+        style: link
+      - label: About
+        url: /about/
+        style: link
+      - label: Style Guide
+        url: /style-guide/
+        style: link
+      - label: Contact
+        url: /contact/
+        style: link
+    has_social: true
+    social_links:
+      - label: Twitter
+        url: 'https://twitter.com/ExcelGeek'
+        style: icon
+        icon_class: fa-twitter
+        new_window: true
+      - label: DEV
+        url: 'https://dev.to/excelgeek'
+        style: icon
+        icon_class: fa-dev
+        new_window: true
+  footer:
+    content: '&copy; All rights reserved.'
+    links:
+      - label: Made with Stackbit.
+        url: 'https://www.stackbit.com'
+        style: link
+        new_window: true
+      - label: Generated from DEV
+        url: 'https://dev.to/connecting-with-stackbit'
+        new_window: true
+        style: link
+  palette: yellow
+taxonomies:
+  stub: stub
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
